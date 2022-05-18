@@ -18,7 +18,7 @@ function solution(arr) {
   } else {
     arr.splice(arr.indexOf(Math.min(...arr)), 1);
     // indexOf로 배열내의 최소값을 찾은후 splice로 삭제
-    // ...arr이 아니라 arr 로 하면 최소값이 배열의 가장 뒷 값이 삭제됨. 왜?
+    // ...arr이 아니라 arr 로 하면 최소값이 배열의 아니라 배열의 가장 뒷 값이 삭제됨. 왜?
     answer = arr;
   }
   return answer;
